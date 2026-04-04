@@ -1,0 +1,17 @@
+Signature_ID,Pattern,TP,FP,FN,TN,Precision,Recall,F1,FPR
+SIG-001,amsiInitFailed keyword in PowerShell ScriptBlock,4,0,21,119,1.0,0.16,0.276,0.0
+SIG-002,.NET Reflection access to AmsiUtils type and field,2,0,23,119,1.0,0.08,0.148,0.0
+SIG-003,LoadLibrary(amsi.dll) → GetProcAddress → VirtualPr,1,0,24,119,1.0,0.04,0.077,0.0
+SIG-007,csc.exe spawned by PowerShell (Add-Type compilatio,0,0,25,119,0.0,0.0,0.0,0.0
+SIG-008,AMSI COM CLSID manipulation in HKCU,1,0,24,119,1.0,0.04,0.077,0.0
+SIG-009,AMSI Provider registry key deletion or AmsiEnable=,0,0,25,119,0.0,0.0,0.0,0.0
+SIG-010,amsi.dll loaded from non-System32 directory,0,0,25,119,0.0,0.0,0.0,0.0
+SIG-011,PowerShell launched with -version 2 parameter,1,0,24,119,1.0,0.04,0.077,0.0
+SIG-012,NtSetContextThread with debug register modificatio,0,0,25,119,0.0,0.0,0.0,0.0
+SIG-013,ScriptBlockAst constructor with mismatched Extent ,1,0,24,119,1.0,0.04,0.077,0.0
+SIG-014,RuntimeHelpers.PrepareMethod + MethodHandle.GetFun,1,0,24,119,1.0,0.04,0.077,0.0
+SIG-015,EtwEventWrite function targeted with VirtualProtec,1,0,24,119,1.0,0.04,0.077,0.0
+SIG-016,"High density of backtick characters, -f format ope",2,0,23,119,1.0,0.08,0.148,0.0
+SIG-017,TrollAMSI-style method pointer copy via Marshal op,0,0,25,119,0.0,0.0,0.0,0.0
+SIG-018,VBA Declare PtrSafe with amsi.dll memory patching ,0,0,25,119,0.0,0.0,0.0,0.0
+SIG-019,WriteIntPtr targeting NI DLL without VirtualProtec,1,0,24,119,1.0,0.04,0.077,0.0
